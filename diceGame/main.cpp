@@ -39,15 +39,15 @@ int main()
             mostrarPuntuacionMasAlta();
             break;
         case 4:
-            cout << std::endl;
-            cout << "Mati aprobame <3" << std::endl;
+            cout << endl;
+            cout << "Mati aprobame <3" << endl;
             break;
         default:
-            cout << "Opción inválida. Por favor, ingrese una opción válida (1-4)." << std::endl;
+            cout << "Opción inválida. Por favor, ingrese una opción válida (1-4)." << endl;
             break;
         }
 
-        cout << std::endl;
+        cout << endl;
 
     } while (opcion != 4);
 
